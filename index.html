@@ -96,16 +96,7 @@ body {font-family: "Lato", sans-serif}
       </div>
       <div class="w3-third">
         <p><b>DJ FLY TRONIC<b></p>
-        <p>Hey everyone, DJ Fly Tronic here.
-          I first started got into listening to techno & trance, back in the days, when Dance Dance Revolution [DDR] 
-          came out. I got my first Clubland, Trance 2004, Pure Energy, and Base Attack CDs when they still had Virgin 
-          Record Stores, here in California. I started raving and Djing 2008. Like many DJs in my time, I had that
-          dream and drive, of making that energy flowing, throughout the crowd. As I starting getting more into the 
-          rave scene, I started repecting the culture and embrassing it. I soon enough started liking Electro, House, 
-          Hardstyle, & Dubstep. All Djs should know, we all start out small and little by little, you will draw that 
-          crowd in, to your style. I've Dj'd in California, Texas, and now back in California after 7 years. The genres 
-          that I currently mix, as of present day, are Trance, Psy Trance, Hardstyle, Trap, Dubstep, EDM, Electro, and 
-          House. PLUR SoCal Rave Fam! </p>
+        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('flyBioModal').style.display='block'">MORE</button>
         <img src="http://umamu.jp/wordpress/wp-content/uploads/2013/06/1304_ARTIST_logo-860x573.jpg" class="w3-round" alt="Random Name" style="width:60%"><br />
       </div>
       <div class="w3-third">
@@ -114,9 +105,7 @@ body {font-family: "Lato", sans-serif}
       </div>
       <div class="w3-third">
         <p><b>DJ SPIKE<b></p>
-        <p>DJ SP1K3 aka Kratos from Orange county, you can find him at Newport beach, clubs, or car meets.
-          His favorite music genre is Trance but never forgets his Mexican roots. One of his biggest dreams 
-          is to travel the world and make people dance </p>
+        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('spikeBioModal').style.display='block'">MORE</button>
         <img src="http://umamu.jp/wordpress/wp-content/uploads/2013/06/1304_ARTIST_logo-860x573.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
       </div>
       <div class="w3-third">
@@ -129,12 +118,7 @@ body {font-family: "Lato", sans-serif}
       </div>
       <div class="w3-third">
         <p><b>PRAYDO<b></p>
-        <p>I go by Praydo. My Name is Alex Prado. born in Los Angeles, California 
-          and raised in Las Vegas, Nevada. I have been producing and DJing since I was 18. 
-          I got into DJing and music through my dad. My dad was a DJ and a breakdancer so 
-          I was always around music and gravitated towards that. So I enjoy playing music 
-          since it’s always been a part of my life and like to show people a good time 
-          with music. <p>
+        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('praydoBioModal').style.display='block'">MORE</button>
         <img src="http://umamu.jp/wordpress/wp-content/uploads/2013/06/1304_ARTIST_logo-860x573.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
       </div>
     </div>
@@ -168,10 +152,10 @@ body {font-family: "Lato", sans-serif}
         
         
   <!-- Micah Bio Modal -->
-  <div id="stankBioModal" class="w3-modal">
+  <div id="micahBioModal" class="w3-modal">
     <div class="w3-modal-content w3-animate-top w3-card-4">
       <header class="w3-container w3-teal w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('stankBioModal').style.display='none'" 
+        <span onclick="document.getElementById('micahBioModal').style.display='none'" 
        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
         <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Bio</h2>
       </header>
@@ -188,6 +172,83 @@ body {font-family: "Lato", sans-serif}
       </div>
     </div>
   </div>
+        
+        
+  <!-- DJ Fly Tronic Bio Modal -->
+  <div id="spikeBioModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('spikeBioModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Bio</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Bio </label></p>
+        <p>Hey everyone, DJ Fly Tronic here.
+          I first started got into listening to techno & trance, back in the days, when Dance Dance Revolution [DDR] 
+          came out. I got my first Clubland, Trance 2004, Pure Energy, and Base Attack CDs when they still had Virgin 
+          Record Stores, here in California. I started raving and Djing 2008. Like many DJs in my time, I had that
+          dream and drive, of making that energy flowing, throughout the crowd. As I starting getting more into the 
+          rave scene, I started repecting the culture and embrassing it. I soon enough started liking Electro, House, 
+          Hardstyle, & Dubstep. All Djs should know, we all start out small and little by little, you will draw that 
+          crowd in, to your style. I've Dj'd in California, Texas, and now back in California after 7 years. The genres 
+          that I currently mix, as of present day, are Trance, Psy Trance, Hardstyle, Trap, Dubstep, EDM, Electro, and 
+          House. PLUR SoCal Rave Fam! </p> 
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Return <a href="#" class="w3-text-blue">home</a></p>
+      </div>
+    </div>
+  </div>
+        
+   <!-- DJ Spike Bio Modal -->
+  <div id="flyBioModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('flyBioModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Bio</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Bio </label></p>
+        <p>DJ SP1K3 aka Kratos from Orange county, you can find him at Newport beach, clubs, or car meets.
+          His favorite music genre is Trance but never forgets his Mexican roots. One of his biggest dreams is
+          to travel the world and make people dance </p>
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Return <a href="#" class="w3-text-blue">home</a></p>
+      </div>
+    </div>
+  </div>       
+        
+   <!-- DJ Praydo Bio Modal -->
+  <div id="praydoBioModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('praydoBioModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Bio</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Bio </label></p>
+        <p>I go by Praydo. My Name is Alex Prado. born in Los Angeles, California 
+          and raised in Las Vegas, Nevada. I have been producing and DJing since I was 18. 
+          I got into DJing and music through my dad. My dad was a DJ and a breakdancer so 
+          I was always around music and gravitated towards that. So I enjoy playing music 
+          since it’s always been a part of my life and like to show people a good time 
+          with music. <p>
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Return <a href="#" class="w3-text-blue">home</a></p>
+      </div>
+    </div>
+  </div>               
         
         
   <!-- Event Section -->
