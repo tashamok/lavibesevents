@@ -101,6 +101,7 @@ body {font-family: "Lato", sans-serif}
       </div>
       <div class="w3-third">
         <p><b>GORILLA SOLZ<b></p>
+        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('gorillaBioModal').s
         <img src="http://umamu.jp/wordpress/wp-content/uploads/2013/06/1304_ARTIST_logo-860x573.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
       </div>
       <div class="w3-third">
@@ -110,10 +111,12 @@ body {font-family: "Lato", sans-serif}
       </div>
       <div class="w3-third">
         <p><b>FELIX REED<b></p>
+        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('felixBioModal').s
         <img src="http://umamu.jp/wordpress/wp-content/uploads/2013/06/1304_ARTIST_logo-860x573.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%"><br />
       </div>
       <div class="w3-third">
         <p><b>LONDON MOODY<b></p>
+        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('londonBioModal').s
         <img src="http://umamu.jp/wordpress/wp-content/uploads/2013/06/1304_ARTIST_logo-860x573.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
       </div>
       <div class="w3-third">
@@ -175,10 +178,10 @@ body {font-family: "Lato", sans-serif}
         
         
   <!-- DJ Fly Tronic Bio Modal -->
-  <div id="spikeBioModal" class="w3-modal">
+  <div id="flyBioModal" class="w3-modal">
     <div class="w3-modal-content w3-animate-top w3-card-4">
       <header class="w3-container w3-teal w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('spikeBioModal').style.display='none'" 
+        <span onclick="document.getElementById('flyBioModal').style.display='none'" 
        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
         <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Bio</h2>
       </header>
@@ -203,11 +206,31 @@ body {font-family: "Lato", sans-serif}
     </div>
   </div>
         
-   <!-- DJ Spike Bio Modal -->
-  <div id="flyBioModal" class="w3-modal">
+ <!-- Gorilla Solz Bio Modal -->
+  <div id="gorillaBioModal" class="w3-modal">
     <div class="w3-modal-content w3-animate-top w3-card-4">
       <header class="w3-container w3-teal w3-center w3-padding-32"> 
-        <span onclick="document.getElementById('flyBioModal').style.display='none'" 
+        <span onclick="document.getElementById('gorillaBioModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Bio</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Bio </label></p>
+        <p>Gorilla Solz </p> 
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Return <a href="#" class="w3-text-blue">home</a></p>
+      </div>
+    </div>
+  </div>    
+        
+   <!-- DJ Spike Bio Modal -->
+  <div id="spikeBioModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('spikeBioModal').style.display='none'" 
        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
         <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Bio</h2>
       </header>
@@ -224,6 +247,49 @@ body {font-family: "Lato", sans-serif}
       </div>
     </div>
   </div>       
+ 
+        
+<!-- Felix Reed Bio Modal -->
+  <div id="felixBioModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('felixBioModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Bio</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Bio </label></p>
+        <p>Felix Reed </p> 
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Return <a href="#" class="w3-text-blue">home</a></p>
+      </div>
+    </div>
+  </div>        
+        
+        
+        
+  <!-- London Moody Bio Modal -->
+  <div id="londonBioModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('londonBioModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Bio</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Bio </label></p>
+        <p>London Moody </p> 
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Return <a href="#" class="w3-text-blue">home</a></p>
+      </div>
+    </div>
+  </div>      
         
    <!-- DJ Praydo Bio Modal -->
   <div id="praydoBioModal" class="w3-modal">
@@ -281,8 +347,8 @@ body {font-family: "Lato", sans-serif}
             <input type="hidden" name="hosted_button_id" value="YRAGT749GUETC">
             <table>
             <tr><td><input type="hidden" name="on0" value="Ticket variations"><b>TICKET OPTIONS:<b></td></tr><tr><td><select name="os0">
-              <option value="General Admission">General Admission $20</option>
-              <option value="VIP">VIP $30</option>
+              <option value="General Admission">Gen. Admission: $20</option>
+              <option value="VIP">VIP: $30</option>
             </select> </td></tr>
             </table>
             <input type="hidden" name="currency_code" value="USD">
